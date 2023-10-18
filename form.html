@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="cssStylesheet.css">
+<title>Contact Us</title>
+<body>
+    <br>
+   
+    <h1>Contact Us</h1>
+    <hr><br>
+    <p>We are available to answer food and nutrition questions. Questions and comments can be provided via email and you will receive a response to your inquiry.</p> 
+    <h2>Submit a question</h2>
+    <b>Your Information-</b>
+    <hr>
+        <form name="contact" action="hwp.html" method="post">
+               <label for="name" class="form-label">Name:</label> 
+               <input class="form-box" type="text" name="name" placeholder="Your Name" size="30" maxlength="20" required>
+               <label for="email" class="form-label">Email:</label> 
+               <input class="form-box" type="email" name="email" placeholder="Your Email" size="30" maxlength="25" required>
+               <label for="phone" class="form-label">Phone:</label> 
+               <input class="form-box" type="tel" name="phone" placeholder="Your mobile number" pattern="[0-9]{10}" size="30" maxlength="12"> <br>
+               <label for="question" class="form-label">Your reviews: </label><br>
+               <textarea name="question" cols="30" rows="10"></textarea><br><br>
+               <label for="file" class="form-label">Any images or files to insert:</label> <br>
+               <input type="file" class="form-box" placeholder="Drag or choose any files or images" name="file" accept="files" accept="images" multiple> <br>
+               <input class="form-label" type="checkbox" name="checkbox" value="yes">
+               <label for="checkbox" class="form-label"> Subscibe to get notifications through email</label> <hr>
+               <input type="submit" class="form-label" placeholder="Submit your question" size="30">    
+        </form>
+   
+</body>
+</html>
+
